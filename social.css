@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: normal bold 1.1em Arial, Helvetica, sans-serif;
+}
+
+a, img {
+    display: block;
+}
+
+/* Mexendo na barra de rolagem */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    background-color: #FBFBFB;
+    text-decoration: none;
+    text-align: center;
+    color: #2E2532;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: #2E2532;
+    color: #FBFBFB;
+    transition: .7s;
+}
