@@ -41,26 +41,19 @@ body {
     width: 268px;
 }
 
-.redes-sociais {
-    position: absolute;
-    top: 22%;
-    right: 1%;
-
-    transform: translateY(-50%);
-    width: 100px;
-    height: 300px;
-
+.redes-sociais a {
+    display: block;
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+    margin: 0px;
     background-color: transparent;
 }
 
 .redes-sociais  img {
-    display: block;
-    float: right;
     border-radius: 50%;
     box-sizing: border-box; /* Faz com que a borda faça parte da caixa (obs.: os botões vão parar de se mexer) */
-    width: 80px;
-    height: 80px;
-    margin-top: 30px;
+    width: 60px;
+    height: 60px;
     border: 0px solid transparent;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.447);
 }
